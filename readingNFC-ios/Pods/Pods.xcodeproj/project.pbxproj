@@ -1,0 +1,591 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0D239A41FDE24FC1CDD2DA47B9686A17 /* VYNFCNDEFMessageHeader.m in Sources */ = {isa = PBXBuildFile; fileRef = 65036DC76A9687AAC88AC6AC423D6E51 /* VYNFCNDEFMessageHeader.m */; };
+		1072475626B9950D1AC78EDBABDF5BA7 /* VYNFCNDEFPayloadParser.h in Headers */ = {isa = PBXBuildFile; fileRef = 2EA0DFB9CACCB0A2E0219B20F7F6257D /* VYNFCNDEFPayloadParser.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		486A69E2B9A32B2B03A817157E207AE7 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
+		4A273A7E5666CD08DE0EE2080D5CABDE /* VYNFCKit-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = F265FD4B25D32726A13F4D18021D2A5E /* VYNFCKit-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		53F8619D101D61C18846BAE31BC9BEF8 /* VYNFCKit-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = D512E1D0FA8B4E0A9518B0E629B45BBC /* VYNFCKit-dummy.m */; };
+		7F84DAF3BC11CC46499E86524955E77A /* VYNFCNDEFPayloadParser.m in Sources */ = {isa = PBXBuildFile; fileRef = 0F44DFB1DCB63B580DFD7D740B97AE94 /* VYNFCNDEFPayloadParser.m */; };
+		88EED3B06A210233EEE2DA98AF728B78 /* VYNFCKit.h in Headers */ = {isa = PBXBuildFile; fileRef = A1D2CC38161E5C94FBC52A3FDF1735C0 /* VYNFCKit.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		A108B6BBDB8A91CECD1388076A8DC777 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
+		B9F33E952C07AC3B174A14309DFB3388 /* VYNFCNDEFMessageHeader.h in Headers */ = {isa = PBXBuildFile; fileRef = 3056B4B3DA26128A22BCE9ECAE08F63A /* VYNFCNDEFMessageHeader.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		D214D61A2699EE5FE0F091EFE115194F /* VYNFCNDEFPayloadTypes.h in Headers */ = {isa = PBXBuildFile; fileRef = 1B4C20B1A2110756939ADD0D10366B9E /* VYNFCNDEFPayloadTypes.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		DB7C2CBD3355B074F2F7E52668FAF23D /* Info.plist in Sources */ = {isa = PBXBuildFile; fileRef = 1DEC8301314517ACCE5AC581BB74FCED /* Info.plist */; };
+		DCD4AA4907E3CF2697EB26F3EE6A63F6 /* Pods-readingNFC-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 583EF85157D32AA6E285D56EBFCF9780 /* Pods-readingNFC-dummy.m */; };
+		F615E3181539730734261DD86B21A936 /* VYNFCNDEFPayloadTypes.m in Sources */ = {isa = PBXBuildFile; fileRef = 976CAD238D5C66F66C582C7492B49CEE /* VYNFCNDEFPayloadTypes.m */; };
+		FD07CA5F28549D8B21C189BBF5BAE3B6 /* Pods-readingNFC-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 6625ADA55E967729DB2B44118C40CEC3 /* Pods-readingNFC-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		7F3DA76092CEA098D5A473734C7C2A38 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A67C9DFD2BEAEAF9A97CB5F2FD6DB669;
+			remoteInfo = VYNFCKit;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		0F44DFB1DCB63B580DFD7D740B97AE94 /* VYNFCNDEFPayloadParser.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = VYNFCNDEFPayloadParser.m; path = VYNFCKit/VYNFCNDEFPayloadParser.m; sourceTree = "<group>"; };
+		1B4C20B1A2110756939ADD0D10366B9E /* VYNFCNDEFPayloadTypes.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = VYNFCNDEFPayloadTypes.h; path = VYNFCKit/VYNFCNDEFPayloadTypes.h; sourceTree = "<group>"; };
+		1DEC8301314517ACCE5AC581BB74FCED /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; name = Info.plist; path = VYNFCKit/Info.plist; sourceTree = "<group>"; };
+		27264CE96A65029651EE4BEE1C4E3E2D /* VYNFCKit.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = VYNFCKit.modulemap; sourceTree = "<group>"; };
+		282F65DCAEFA2160238557F4E334EC33 /* Pods-readingNFC-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-readingNFC-resources.sh"; sourceTree = "<group>"; };
+		2EA0DFB9CACCB0A2E0219B20F7F6257D /* VYNFCNDEFPayloadParser.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = VYNFCNDEFPayloadParser.h; path = VYNFCKit/VYNFCNDEFPayloadParser.h; sourceTree = "<group>"; };
+		3056B4B3DA26128A22BCE9ECAE08F63A /* VYNFCNDEFMessageHeader.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = VYNFCNDEFMessageHeader.h; path = VYNFCKit/VYNFCNDEFMessageHeader.h; sourceTree = "<group>"; };
+		3904D29D9C6B51164F80E5DE0DD79956 /* VYNFCKit.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = VYNFCKit.framework; path = VYNFCKit.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		414E93E15CCCE9D04674C3F831D7DA82 /* VYNFCKit.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = VYNFCKit.xcconfig; sourceTree = "<group>"; };
+		583EF85157D32AA6E285D56EBFCF9780 /* Pods-readingNFC-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-readingNFC-dummy.m"; sourceTree = "<group>"; };
+		65036DC76A9687AAC88AC6AC423D6E51 /* VYNFCNDEFMessageHeader.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = VYNFCNDEFMessageHeader.m; path = VYNFCKit/VYNFCNDEFMessageHeader.m; sourceTree = "<group>"; };
+		6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		6625ADA55E967729DB2B44118C40CEC3 /* Pods-readingNFC-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-readingNFC-umbrella.h"; sourceTree = "<group>"; };
+		72A53597616E07A262B7992FA63B9E35 /* Pods-readingNFC-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-readingNFC-acknowledgements.plist"; sourceTree = "<group>"; };
+		7CB126AF1675200070AFA6896EA89AA5 /* Pods-readingNFC.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-readingNFC.debug.xcconfig"; sourceTree = "<group>"; };
+		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		976CAD238D5C66F66C582C7492B49CEE /* VYNFCNDEFPayloadTypes.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = VYNFCNDEFPayloadTypes.m; path = VYNFCKit/VYNFCNDEFPayloadTypes.m; sourceTree = "<group>"; };
+		A1D2CC38161E5C94FBC52A3FDF1735C0 /* VYNFCKit.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = VYNFCKit.h; path = VYNFCKit/VYNFCKit.h; sourceTree = "<group>"; };
+		A22FEF54306B3C784623C8DF168786C3 /* Pods-readingNFC-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-readingNFC-frameworks.sh"; sourceTree = "<group>"; };
+		BAD950907C967A5B98B5A5C504920D48 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C87E8E12BC4AD7B44BDFDC173CA9DD88 /* Pods_readingNFC.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_readingNFC.framework; path = "Pods-readingNFC.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		CF54F894C24D5DFCDB6E7554D720A161 /* Pods-readingNFC-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-readingNFC-acknowledgements.markdown"; sourceTree = "<group>"; };
+		D512E1D0FA8B4E0A9518B0E629B45BBC /* VYNFCKit-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "VYNFCKit-dummy.m"; sourceTree = "<group>"; };
+		E18D1FAA60E681C2D97C03A236F37053 /* Pods-readingNFC.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-readingNFC.release.xcconfig"; sourceTree = "<group>"; };
+		F154B3C03A501BF719884E26D5C55342 /* Pods-readingNFC.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-readingNFC.modulemap"; sourceTree = "<group>"; };
+		F265FD4B25D32726A13F4D18021D2A5E /* VYNFCKit-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "VYNFCKit-umbrella.h"; sourceTree = "<group>"; };
+		F68DA11DB652B8020B2192EA9F893C6B /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F9E50EE72EFD3AD8C40C228BB2CB9B23 /* VYNFCKit-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "VYNFCKit-prefix.pch"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		03F2538518AC17F40502BFE87F876CB6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				486A69E2B9A32B2B03A817157E207AE7 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		16F7484155B21D3505227818009C4172 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A108B6BBDB8A91CECD1388076A8DC777 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		1A1CC65EB997512E92B921F77D9167CC /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				E990D806DD92E2A467DB6961FBDF2FF9 /* VYNFCKit */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		2EBCAC5F5529CE3EFAEB10B2CAB6FDCD /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				C87E8E12BC4AD7B44BDFDC173CA9DD88 /* Pods_readingNFC.framework */,
+				3904D29D9C6B51164F80E5DE0DD79956 /* VYNFCKit.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		453FAFF8A1A062ED56FD1DFF1E1EC19F /* Pods-readingNFC */ = {
+			isa = PBXGroup;
+			children = (
+				F68DA11DB652B8020B2192EA9F893C6B /* Info.plist */,
+				F154B3C03A501BF719884E26D5C55342 /* Pods-readingNFC.modulemap */,
+				CF54F894C24D5DFCDB6E7554D720A161 /* Pods-readingNFC-acknowledgements.markdown */,
+				72A53597616E07A262B7992FA63B9E35 /* Pods-readingNFC-acknowledgements.plist */,
+				583EF85157D32AA6E285D56EBFCF9780 /* Pods-readingNFC-dummy.m */,
+				A22FEF54306B3C784623C8DF168786C3 /* Pods-readingNFC-frameworks.sh */,
+				282F65DCAEFA2160238557F4E334EC33 /* Pods-readingNFC-resources.sh */,
+				6625ADA55E967729DB2B44118C40CEC3 /* Pods-readingNFC-umbrella.h */,
+				7CB126AF1675200070AFA6896EA89AA5 /* Pods-readingNFC.debug.xcconfig */,
+				E18D1FAA60E681C2D97C03A236F37053 /* Pods-readingNFC.release.xcconfig */,
+			);
+			name = "Pods-readingNFC";
+			path = "Target Support Files/Pods-readingNFC";
+			sourceTree = "<group>";
+		};
+		6E7E9570A7C27914E3B53CCE30A4B446 /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				453FAFF8A1A062ED56FD1DFF1E1EC19F /* Pods-readingNFC */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		7DB346D0F39D3F0E887471402A8071AB = {
+			isa = PBXGroup;
+			children = (
+				93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */,
+				BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */,
+				1A1CC65EB997512E92B921F77D9167CC /* Pods */,
+				2EBCAC5F5529CE3EFAEB10B2CAB6FDCD /* Products */,
+				6E7E9570A7C27914E3B53CCE30A4B446 /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		882A4B25E143AD7B2C11239A36FB83E3 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				BAD950907C967A5B98B5A5C504920D48 /* Info.plist */,
+				27264CE96A65029651EE4BEE1C4E3E2D /* VYNFCKit.modulemap */,
+				414E93E15CCCE9D04674C3F831D7DA82 /* VYNFCKit.xcconfig */,
+				D512E1D0FA8B4E0A9518B0E629B45BBC /* VYNFCKit-dummy.m */,
+				F9E50EE72EFD3AD8C40C228BB2CB9B23 /* VYNFCKit-prefix.pch */,
+				F265FD4B25D32726A13F4D18021D2A5E /* VYNFCKit-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/VYNFCKit";
+			sourceTree = "<group>";
+		};
+		BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				D35AF013A5F0BAD4F32504907A52519E /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		D35AF013A5F0BAD4F32504907A52519E /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		E990D806DD92E2A467DB6961FBDF2FF9 /* VYNFCKit */ = {
+			isa = PBXGroup;
+			children = (
+				1DEC8301314517ACCE5AC581BB74FCED /* Info.plist */,
+				A1D2CC38161E5C94FBC52A3FDF1735C0 /* VYNFCKit.h */,
+				3056B4B3DA26128A22BCE9ECAE08F63A /* VYNFCNDEFMessageHeader.h */,
+				65036DC76A9687AAC88AC6AC423D6E51 /* VYNFCNDEFMessageHeader.m */,
+				2EA0DFB9CACCB0A2E0219B20F7F6257D /* VYNFCNDEFPayloadParser.h */,
+				0F44DFB1DCB63B580DFD7D740B97AE94 /* VYNFCNDEFPayloadParser.m */,
+				1B4C20B1A2110756939ADD0D10366B9E /* VYNFCNDEFPayloadTypes.h */,
+				976CAD238D5C66F66C582C7492B49CEE /* VYNFCNDEFPayloadTypes.m */,
+				882A4B25E143AD7B2C11239A36FB83E3 /* Support Files */,
+			);
+			name = VYNFCKit;
+			path = VYNFCKit;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		E34F087D5293278C7B92AF2F836CFC30 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FD07CA5F28549D8B21C189BBF5BAE3B6 /* Pods-readingNFC-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FACCB580AF78B67002E4D1E8BA512735 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4A273A7E5666CD08DE0EE2080D5CABDE /* VYNFCKit-umbrella.h in Headers */,
+				88EED3B06A210233EEE2DA98AF728B78 /* VYNFCKit.h in Headers */,
+				B9F33E952C07AC3B174A14309DFB3388 /* VYNFCNDEFMessageHeader.h in Headers */,
+				1072475626B9950D1AC78EDBABDF5BA7 /* VYNFCNDEFPayloadParser.h in Headers */,
+				D214D61A2699EE5FE0F091EFE115194F /* VYNFCNDEFPayloadTypes.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		29CC6BDCB23C1D6611BDE537DE254911 /* Pods-readingNFC */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8875B1A339F4F6A8BCE3050893877F37 /* Build configuration list for PBXNativeTarget "Pods-readingNFC" */;
+			buildPhases = (
+				C270548B6DF5308CD0D018BB947DC44F /* Sources */,
+				16F7484155B21D3505227818009C4172 /* Frameworks */,
+				E34F087D5293278C7B92AF2F836CFC30 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				E6E9CD16D97C7789D191B4F7B57BB35E /* PBXTargetDependency */,
+			);
+			name = "Pods-readingNFC";
+			productName = "Pods-readingNFC";
+			productReference = C87E8E12BC4AD7B44BDFDC173CA9DD88 /* Pods_readingNFC.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		A67C9DFD2BEAEAF9A97CB5F2FD6DB669 /* VYNFCKit */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E76579A6F41A262BDC1B8A02513B384F /* Build configuration list for PBXNativeTarget "VYNFCKit" */;
+			buildPhases = (
+				714F66BD4F272FA8482F5679170C68A9 /* Sources */,
+				03F2538518AC17F40502BFE87F876CB6 /* Frameworks */,
+				FACCB580AF78B67002E4D1E8BA512735 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = VYNFCKit;
+			productName = VYNFCKit;
+			productReference = 3904D29D9C6B51164F80E5DE0DD79956 /* VYNFCKit.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D41D8CD98F00B204E9800998ECF8427E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0930;
+				LastUpgradeCheck = 0930;
+			};
+			buildConfigurationList = 2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 7DB346D0F39D3F0E887471402A8071AB;
+			productRefGroup = 2EBCAC5F5529CE3EFAEB10B2CAB6FDCD /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				29CC6BDCB23C1D6611BDE537DE254911 /* Pods-readingNFC */,
+				A67C9DFD2BEAEAF9A97CB5F2FD6DB669 /* VYNFCKit */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		714F66BD4F272FA8482F5679170C68A9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DB7C2CBD3355B074F2F7E52668FAF23D /* Info.plist in Sources */,
+				53F8619D101D61C18846BAE31BC9BEF8 /* VYNFCKit-dummy.m in Sources */,
+				0D239A41FDE24FC1CDD2DA47B9686A17 /* VYNFCNDEFMessageHeader.m in Sources */,
+				7F84DAF3BC11CC46499E86524955E77A /* VYNFCNDEFPayloadParser.m in Sources */,
+				F615E3181539730734261DD86B21A936 /* VYNFCNDEFPayloadTypes.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C270548B6DF5308CD0D018BB947DC44F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DCD4AA4907E3CF2697EB26F3EE6A63F6 /* Pods-readingNFC-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		E6E9CD16D97C7789D191B4F7B57BB35E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = VYNFCKit;
+			target = A67C9DFD2BEAEAF9A97CB5F2FD6DB669 /* VYNFCKit */;
+			targetProxy = 7F3DA76092CEA098D5A473734C7C2A38 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		323A24856F1A4871A780301AF5C02A2A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = NO_SIGNING/;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		69C0CFF4038199652225B0195079AC7A /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 414E93E15CCCE9D04674C3F831D7DA82 /* VYNFCKit.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/VYNFCKit/VYNFCKit-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/VYNFCKit/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/VYNFCKit/VYNFCKit.modulemap";
+				PRODUCT_NAME = VYNFCKit;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		A7BB6B0619EFD910F8C002D48CC94E98 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E18D1FAA60E681C2D97C03A236F37053 /* Pods-readingNFC.release.xcconfig */;
+			buildSettings = {
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-readingNFC/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-readingNFC/Pods-readingNFC.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_readingNFC;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		BCA3F642BDB93A5B67D4068BA83A5527 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7CB126AF1675200070AFA6896EA89AA5 /* Pods-readingNFC.debug.xcconfig */;
+			buildSettings = {
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-readingNFC/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-readingNFC/Pods-readingNFC.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_readingNFC;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		CA33F186435244FD0FD5B7325332656C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = NO_SIGNING/;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Release;
+		};
+		DDB63D3DBAFB8C85D72FDAB676F43D32 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 414E93E15CCCE9D04674C3F831D7DA82 /* VYNFCKit.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/VYNFCKit/VYNFCKit-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/VYNFCKit/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/VYNFCKit/VYNFCKit.modulemap";
+				PRODUCT_NAME = VYNFCKit;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				323A24856F1A4871A780301AF5C02A2A /* Debug */,
+				CA33F186435244FD0FD5B7325332656C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8875B1A339F4F6A8BCE3050893877F37 /* Build configuration list for PBXNativeTarget "Pods-readingNFC" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BCA3F642BDB93A5B67D4068BA83A5527 /* Debug */,
+				A7BB6B0619EFD910F8C002D48CC94E98 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E76579A6F41A262BDC1B8A02513B384F /* Build configuration list for PBXNativeTarget "VYNFCKit" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DDB63D3DBAFB8C85D72FDAB676F43D32 /* Debug */,
+				69C0CFF4038199652225B0195079AC7A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+}
